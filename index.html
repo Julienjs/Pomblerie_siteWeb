@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font awesome -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+
+  <!-- Bootstrap CSS -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+
+  <!-- Css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Titre -->
+  <title>Entreprise de Plomberie</title>
+  <title>Document</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar navbar-expand-md navbar-light p-md-0">
+      <div class="container-fluid">
+        <!-- Img / Enseigne -->
+        <a class="navbar-brand text-uppercase mx-4" href="index.html">
+          <img src="/assets/img/logo-entreprise.jpg" alt="logo de l'entreprise" width="60" height="64"
+            class="d-inline-block align-text-center">
+          Entreprise</a>
+        <!-- Menu burger -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Lien -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto mb-lg-2">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#tarifs">Tarifs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#marques">Marques</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#réalisation">Réalisation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quiSommesNous">Qui Sommes-Nous ?</a>
+            </li>
+          </ul>
+          <li class="d-flex mb-lg-2">
+            <button onclick="window.location.href = 'contact.html';" class="btn btn-outline-success"
+              type="button">Contact</button>
+          </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="mx-auto">
+    <!-- carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-Light slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="assets/img/plombier-presentation.jpg" class="d-block reveal-1" alt="Plombier qui travail">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="reveal-2">Titre 1</h2>
+            <p class="reveal-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi soluta nesciunt animi.
+              Totam nobis ipsa
+              quod earum ullam, quas perspiciatis aut nemo doloribus veritatis corrupti quidem distinctio numquam dicta.
+              Et!
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="assets/img/toilette.jpg" class="d-block reveal-1" alt="Plombier qui travail">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="reveal-2">Titre 2</h2>
+            <p class="reveal-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi soluta nesciunt animi.
+              Totam nobis ipsa
+              quod earum ullam, quas perspiciatis aut nemo doloribus veritatis corrupti quidem distinctio numquam dicta.
+              Et!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/tuyau.jpg" class="d-block  reveal-1" alt="Plombier qui travail">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="reveal-2">Titre 3</h5>
+              <p class="reveal-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi soluta nesciunt animi.
+                Totam nobis ipsa
+                quod earum ullam, quas perspiciatis aut nemo doloribus veritatis corrupti quidem distinctio numquam
+                dicta.
+                Et!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section>
+      <!-- card row -->
+      <hr class="featurette-divider">
+      <article id="quiSommesNous" class="row featurette reveal-1">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading featurettte-quiSommesNous reveal-3">Qui Sommes-Nous ?</h2>
+          <p class="lead reveal-4"><strong>Entreprise</strong> se déplace en <strong>Essonne et ses alentours</strong>
+            pour tous
+            vos travaux de
+            <strong> et
+              sanitaire !</strong> Nous pouvons faire des interventions aussi bien chez les particuliers que chez les
+            entreprises,
+            pour réaliser tout type de travaux.<strong> Une fuite d'eau ? Un évier à déboucher ? Un chauffe-eau à
+              réparer ?</strong>
+            Appelez-nous ! Nous travaillons uniquement après diagnostic, avec un <strong>devis gratuit en
+              ligne!</strong>
+            Nous intervenons toujours après l'élaboration d'un devis ! Nous pouvons également <strong>intervenir en
+              urgence</strong>, il
+            suffit de nous appeler pour cela !
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1 reveal-2">
+          <img src="assets/img/camion-2.jfif" class="d-block w-100" alt="Plombier qui travail">
+        </div>
+      </article>
+
+      <hr class="featurette-divider">
+
+      <article id="tarifs" class="row featurette reveal-1 ">
+        <div class="col-md-7">
+          <h2 class="featurette-heading reveal-3">Tarifs</h2>
+          <ul class="lead reveal-4">
+            <li>Réparation de fuite d'eau <span>- dès 65 €</span></li>
+            <li>Débouchage évier <span>- dès 65 €</span></li>
+            <li>Débouchage WC <span>- dès 65 €</span></li>
+            <li>Mécanisme de WC standard <span>- dès 96 €</span></li>
+            <li>Réparation de chauffe eau d'eau <span>- dès 80 €</span></li>
+            <li>Remplacement de mitigeur evier <span>- dès 96 €</span></li>
+            <li>Remplacement mitigeur mural douche <span>- dès 195€</span></li>
+            <li>Remplacement de chauffe eau <span>- dès 329 €</span></li>
+            <li>Dépannages et installation de chaudières <span>- Sur Devis</span></li>
+            <li>Remplacement de WC standard <span>- dès 195 €</span></li>
+            <li>Remplacement de WC suspendue <span>- dès 359 €</span></li>
+            <li>Deplacement urgent <span>- dès 65 €</span></li>
+            <li>Refaire une salle de bain<span>- Sur Devis</span></li>
+            <li>Préparation des canalisations pour cuisine <span>- Sur Devis</span></li>
+          </ul>
+
+        </div>
+        <div class="col-md-5 reveal-2">
+          <img src="assets/img/chauffageplomberie.webp" class="d-block w-100" alt="Plombier qui travail">
+        </div>
+      </article>
+
+      <hr class="featurette-divider">
+
+      <article id="marques" class="row featurette reveal-1">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading featurette-marques reveal-3">Marques</h2>
+          <p class="lead reveal-4">Nous travaillons avec les meilleures marques de plomberie : Atlantic, e.l.m. leblanc,
+            De
+            Dietrich, Alterna, Frisquet, Grohe, Geberit, Thermor etc...</p>
+        </div>
+        <div class="col-md-5 reveal-2">
+          <img src="assets/img/materiel-plomberie.jpg" class="d-block w-100" alt="Plombier qui travail">
+        </div>
+      </article>
+
+      <hr class="featurette-divider">
+
+    </section>
+
+    <section id="realisation">
+      <!-- card col -->
+      <h2>Réalisation</h2>
+      <div id="réalisation" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col reveal-1">
+          <div class="card h-100">
+            <img src="assets/img/inuK4XW.jpeg" class="card-img-top" alt="point d'eau">
+            <div class="card-body">
+              <h5 class="card-title">Création de point d'eau</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, odit magnam!
+                Accusantium asperiores vero provident nam qui, laudantium totam laborum dignissimos impedit, illum
+                numquam
+                magnam aperiam? Modi tenetur dolorum mollitia!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">À partir de <span>180 €</span></small>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal-2">
+          <div class="card h-100">
+            <img src="assets/img/wc.jpg" class="card-img-top" alt="toilettes">
+            <div class="card-body">
+              <h5 class="card-title">installation de WC</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, odit magnam!
+                Accusantium asperiores vero provident nam qui, laudantium totam laborum dignissimos impedit, illum
+                numquam
+                magnam aperiam? Modi tenetur dolorum mollitia!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">À partir de <span>230 €</span></small>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal-3">
+          <div class="card h-100">
+            <img src="assets/img/chauffe-eau-electrique-ok.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Installation de chauffe-eau</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, odit magnam!
+                Accusantium asperiores vero provident nam qui, laudantium totam laborum dignissimos impedit, illum
+                numquam
+                magnam aperiam? Modi tenetur dolorum mollitia!</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">À partir de <span>620 €</span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">&copy; 2021 Company, Inc</p>
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#header" class="nav-link px-2 text-muted">Haut de page</a></li>
+      <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+      <li class="nav-item telephone"><a href="#" class="nav-link px-2">0169405323</a></li>
+    </ul>
+  </footer>
+
+  <!-- Bootstrap js -->
+
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
