@@ -161,6 +161,11 @@ main {
         width: 100%;
     }
 
+    header nav .nav-link:hover:after,
+    header nav .nav-link:active:after {
+        width: 0%;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -172,6 +177,11 @@ main {
 
     .carousel-item img {
         height: 30vh;
+    }
+
+    header nav .nav-link:hover:after,
+    header nav .nav-link:active:after {
+        width: 0%;
     }
 
 }
